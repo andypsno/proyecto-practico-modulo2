@@ -20,14 +20,10 @@ Finalmente, para el control del transporte y personal, la empresa desea tener a 
 | 8 | Tipo\_Paquete | Clasifica el paquete por peso o contenido (ej: Documentos, Frágil, Carga pesada). | ID\_Tipo\_Paq | Con Paquete (1:N). | Segunda regla | Ayuda a determinar el tipo de vehículo necesario. |
 | 9 | Incidencia | Registro de novedades o problemas durante el trayecto (retrasos, daños, etc.). | ID\_Incidencia | Con Paquete (N:1). | Segunda regla | Esencial para la auditoría y atención al cliente. |
 
-**Nomenclatura:**
+**Objetivos Logrados:**
 
-* **Nombre de la entidad:** especificar el nombre de la tabla o entidad.
-* **Descripción:** breve explicación de la entidad y su propósito en la base de datos.
-* **Atributo clave:** listar el atributo clave que definirá la entidad.
-* **Relación con otras entidades:** indicar con qué entidades se relaciona y cómo (uno a uno, uno a muchos, muchos a muchos).
-* **¿Cuál regla de integridad aplica?:** Indique si aplica la primera, segunda o tercera regla de integridad.
-* **Comentarios:** notas adicionales u observaciones importantes.
+* Trazabilidad de Envíos: Registro detallado de paquetes, fechas de ingreso/envío, hora de salida y estados de ruta (transito, entregado, incidencias).
+* Control Operativo: Gestión de sucursales a nivel nacional, choferes, asignación de licencias y vehículos de distribución (motos, carros, camiones, busetas).   
 
 **Diagrama Entidad Relacion (DER):**
 [https://miro.com/app/board/uXjVGDajYl8=/?share\_link\_id=273616973253](https://miro.com/app/board/uXjVGDajYl8%3D/?share_link_id=273616973253)
@@ -167,6 +163,6 @@ Finalmente, para el control del transporte y personal, la empresa desea tener a 
 </table>
 
 
-### 🗄️ Base de datos y Consultas
+### Base de datos y Consultas
 Para la creación de la estructura relacional, restricciones y datos de prueba, puedes revisar el archivo de código fuente en el siguiente enlace:
 - **[💾 Descargar / Ver Script SQL de la Base de Datos](./Proyecto_Via_Veloz%20_Script.sql)**
