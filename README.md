@@ -29,7 +29,7 @@ Finalmente, para el control del transporte y personal, la empresa desea tener a 
 * **¿Cuál regla de integridad aplica?:** Indique si aplica la primera, segunda o tercera regla de integridad.
 * **Comentarios:** notas adicionales u observaciones importantes.
 
-**Modelo Entidad Relacion:**
+**Diagrama Entidad Relacion (DER):**
 [https://miro.com/app/board/uXjVGDajYl8=/?share\_link\_id=273616973253](https://miro.com/app/board/uXjVGDajYl8%3D/?share_link_id=273616973253)
 
 ## Modelo Relacional de Empresa Mensajeria Via Veloz
