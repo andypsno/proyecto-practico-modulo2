@@ -1,4 +1,4 @@
-# Proyecto en SQL Server con empresa de mensajería "Vía Veloz"
+# Proyecto Final: Base de Datos Relacional - Empresa de Mensajería Vía Veloz
 
 **Descripción del caso:** La empresa de mensajería **Vía Veloz,** requiere una base de datos relacional en donde se almacene la operación logística de sus envíos a nivel país, permitiendo el control total de los paquetes desde su recepción hasta la entrega final, incluyendo la información de los responsables del transporte.
 
